@@ -1,0 +1,4 @@
+package storages
+
+class CheckStorage {
+}
