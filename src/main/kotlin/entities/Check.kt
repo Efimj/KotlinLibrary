@@ -1,3 +1,5 @@
 package entities
 
-data class Check()
+data class Check(
+    val checkId: Int,
+)
