@@ -1,6 +1,6 @@
-package storages
+package src.storages
 
-import entities.User
+import src.entities.User
 class UserStorage {
     private val users = mutableListOf<User>()
 

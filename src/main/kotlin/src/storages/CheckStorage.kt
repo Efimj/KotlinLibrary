@@ -1,4 +1,4 @@
-package storages
+package src.storages
 
 class CheckStorage {
 }

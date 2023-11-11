@@ -1,4 +1,4 @@
-package entities
+package src.entities
 
 data class User(
     val userId: Int,

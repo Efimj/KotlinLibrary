@@ -1,6 +1,6 @@
-package storages
+package src.storages
 
-import entities.Book
+import src.entities.Book
 
 class BookStorage {
     private val books: MutableList<Book> = mutableListOf()
