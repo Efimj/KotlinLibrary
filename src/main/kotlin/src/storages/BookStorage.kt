@@ -1,7 +1,9 @@
 package src.storages
 
+import org.springframework.stereotype.Repository
 import src.entities.Book
 
+@Repository
 class BookStorage {
     private val books: MutableList<Book> = mutableListOf()
 

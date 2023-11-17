@@ -2,14 +2,17 @@ package src.controllers
 
 import org.springframework.web.bind.annotation.*
 import src.entities.Book
+import src.services.BookService
 
 @RestController
+//@AllArgsConstructor
 @RequestMapping("/api/books")
-class BookController() {
+class BookController(val bookService: BookService) {
 
     @PostMapping
     fun addBook(@RequestBody book: Book) {
         //BookStorage.addBook(Book)
+        bookService.createNewBook(book = book)
     }
 
     @GetMapping("/{id}")
