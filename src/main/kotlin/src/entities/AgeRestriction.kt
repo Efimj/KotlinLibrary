@@ -1,4 +1,4 @@
-package entities
+package src.entities
 
 enum class AgeRestriction(val minimumAge: Int) {
     NONE(0),
