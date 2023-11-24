@@ -1,6 +1,9 @@
 package src.storages
 
-import entities.Check
+import org.springframework.stereotype.Repository
+import src.entities.Check
+
+@Repository
 class CheckStorage {
     private val checks = mutableListOf<Check>()
 
